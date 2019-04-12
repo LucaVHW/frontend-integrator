@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  background-color: lavender;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: linen;
+  padding: 10px;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+li a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+.left {
+  position: relative;
+  left: 30px;
+}
+.icons {
+  position: relative;
+  left: 800px;
+}
+.right {
+  position: relative;
+  left: 800px;
+}
+p {
+  color: #777;
+}
+li a {
+  color: #777;
+}
