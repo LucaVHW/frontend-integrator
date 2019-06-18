@@ -1,12 +1,16 @@
 body {
   margin: 0;
-  background-color: lavender;
+  background-color: gainsboro;
+  display: flex;
 }
 footer {
+  width: 100%;
   display: flex;
   flex-direction: row;
   background-color: linen;
   padding: 10px;
+  position: relative;
+  top:565px;
 }
 ul {
     list-style-type: none;
