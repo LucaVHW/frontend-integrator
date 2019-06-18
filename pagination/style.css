@@ -1,0 +1,36 @@
+body{
+  background-color: gainsboro;
+}
+.pagination {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.pagination li{
+  padding: 2px;
+}
+.pagination li a {
+  color: black;
+  float: left;
+  padding: 6px 24px;
+  text-decoration: none;
+  background-color: rgb(60,68,78);
+  font-weight: bold;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+.pagination li {
+  float: left;
+}
+.pagination li p{
+  position: relative;
+  font-weight: bold;
+  padding: 8px 30px;
+  background-color: rgb(60,68,78)
+}
+#no {
+  background-color: gainsboro;
+  color: black;
+}
