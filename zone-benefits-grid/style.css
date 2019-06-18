@@ -1,0 +1,31 @@
+body{
+  display: flex;
+  justify-content: center;
+}
+.panel {
+  display: grid;
+  grid-template-areas: 'box box box box';
+  justify-content: space-around;
+  width: 1000px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.box{
+  width: 250px;
+  display: grid;
+  justify-content: center;
+}
+.box img{
+  width: 200px;
+  height: 200px;
+}
+.box h2{
+  color: rgb(117,186,140);
+  font-weight: lighter;
+}
+.box p{
+  font-size: 16px;
+}
+span {
+  font-size: 12px;
+  font-weight: bold;
+}
