@@ -13,9 +13,11 @@ body {
   font-family: 'Merriweather', serif;
 }
 .button {
-  background-color: rgb(224,197,51);
+  background-color: rgb(228,184,64);
   border: none;
-  color: black;
+  font-family: 'Open Sans', sans-serif;
+  color: #222;
+  font-weight: bold;
   padding: 20px 20px;
   text-align: center;
   text-decoration: none;
