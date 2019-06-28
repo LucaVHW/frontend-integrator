@@ -6,6 +6,7 @@ body{
   justify-content: space-between;
   display: flex;
   width: 550px;
+  overflow: hidden;
   height: 260px;
   border: 1px solid lightgrey;
 }
@@ -32,6 +33,7 @@ body{
 .title{
   margin: 0;
   padding: 1px;
+  padding-top: 30px;
   font-size: 20px;
   font-weight: bold;
   color: #222;
@@ -40,10 +42,11 @@ body{
   color: grey;
   font-weight: lighter;
   font-size: 15px;
-  padding: 2px;
+  padding: 5px;
   margin:0;
 }
 footer{
+  padding-top: 30px;
   display: flex;
   width: 100%;
 }
@@ -77,36 +80,13 @@ footer{
   align-items: center;
   justify-content: space-around;
 }
-.bubble{
-  border-radius: 5px;
-  color: #555;
-  background-color: white;
-  box-sizing: border-box;
-  position: relative;
-  left: 100px;
-  width: 300px;
-  border: 1px solid lightgrey;
-  height: 50px;
-}
-.triangle{
-  border-top: 8px solid rgb(0,0,0,0);
-  border-right: 8px solid rgb(0,0,0,0);
-  border-bottom: 8px solid gainsboro;
-  border-left: 8px solid rgb(0,0,0,0);
-  width: 0;
-  position: relative;
-  left: 253px;
+span{
+  font-weight: bold;
 }
 .overlay{
   position: relative;
-  bottom: 20px;
-}
-.overlay p{
-  margin: 0;
-  padding: 15px;
-}
-span{
-  font-weight: bold;
+  width: 100%;
+  height: 50px;
 }
 .card a{
   text-decoration: none;
