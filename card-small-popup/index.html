@@ -30,8 +30,8 @@
           <p class="fdesc">Jun 22 <span>&#183;</span> 9 min read</p>
         </div>
         <div class="icons">
-          <a href="#"><i class="far fa-bookmark"></i></a>
-          <a href="#" onclick="overlay()"><i class="fas fa-chevron-down"></i></a>
+          <a><i class="far fa-bookmark"></i></a>
+          <a onclick="overlay()"><i class="fas fa-chevron-down"></i></a>
         </div>
       </footer>
       <div id="overlay" class="overlay">
@@ -50,10 +50,10 @@
   <script type="text/javascript">
   function overlay() {
     var x = document.getElementById("overlay");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
+    if (x.style.display === "block") {
       x.style.display = "none";
+    } else {
+      x.style.display = "block";
     }
   }
   </script>

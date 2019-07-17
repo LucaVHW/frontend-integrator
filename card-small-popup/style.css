@@ -77,6 +77,9 @@ footer{
   align-items: center;
   justify-content: space-around;
 }
+.icons a{
+  cursor: pointer;
+}
 .bubble{
   border-radius: 5px;
   color: #555;
@@ -100,6 +103,7 @@ footer{
 .overlay{
   position: relative;
   bottom: 20px;
+  display: none;
 }
 .overlay p{
   margin: 0;
