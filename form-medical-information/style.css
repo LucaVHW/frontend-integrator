@@ -1,0 +1,22 @@
+body{
+  font-family: sans-serif;
+}
+h1{
+  font-weight: lighter;
+  width: 60%;
+  padding-bottom: 20px;
+  border-bottom: 1px dotted black;
+}
+h4{
+  margin-bottom: 10px;
+}
+#first{
+  width: 100px;
+}
+.row{
+  display: flex;
+}
+p{
+  margin: 0;
+  padding-top: 5px;
+}
