@@ -39,6 +39,8 @@ li{
 }
 li:hover{
   cursor: pointer;
+  color: whitesmoke;
+  transition-duration: 0.1s;
 }
 .panel{
   width: 33%;
