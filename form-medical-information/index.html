@@ -1,17 +1,70 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title></title>
-  </head>
-  <body>
-    <h1>Emergency Contact and Medical Information</h1>
 
-    <h4>Name</h4>
-    <div class="row">
-        <div><input id="first" type="text" name="" value=""><br><p>First</p></div>&nbsp;<div><input id="last" type="text" name="" value=""><br><p>Last</p></div>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <title></title>
+</head>
+
+<body>
+  <h1>Emergency Contact and Medical Information</h1>
+
+  <h4>Name</h4>
+  <div class="row">
+    <div><input id="first" type="text" name="" value=""><br>
+      <p>First</p>
+    </div>&nbsp;<div><input type="text" name="" value=""><br>
+      <p>Last</p>
     </div>
+  </div>
+  <div class="row line">
+    <div class="panel">
+      <h4>Gender</h4>
+      <select style="width:250px;padding:1px 0px;border-radius:3px;background-color:whitesmoke;" name="gender">
+        <option>Male</option>
+        <option>Female</option>
+      </select>
+    </div>
+    <div id="date" class="panel">
+      <div>
+        <h4>Date of birth</h4>
+      </div>
+      <div style="display:flex;">
+        <div class="dateone">
+          <input class="date" type="text"><br>
+          <p>MM</p>
+        </div>&nbsp;/&nbsp;
+        <div class="dateone">
+          <input class="date" type="text"><br>
+          <p>DD</p>
+        </div>&nbsp;/&nbsp;
+        <div class="dateone">
+          <input class="date" id="year" type="text"><br>
+          <p>YYYY</p>
+        </div>
+        <div id="icon">
+          &nbsp;
+          <i class="far fa-calendar-alt"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  <p id="title">Emergency Contact</p>
+  <h4>Name</h4>
+  <div class="row">
+    <div class="panel flex">
+      <div><input id="first" type="text" name="" value=""><br>
+        <p>First</p>
+      </div>&nbsp;<div><input type="text" name="" value=""><br>
+        <p>Last</p>
+      </div>
+    </div>
+    <div class="panel">
+      <input id="relation" type="text">
+    </div>
+  </div>
+</body>
 
-  </body>
 </html>
