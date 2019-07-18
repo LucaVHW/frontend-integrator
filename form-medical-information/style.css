@@ -15,15 +15,11 @@ h4{
 }
 .row{
   display: flex;
-  outline: 1px solid blue;
   width: 60%;
 }
 p{
   margin: 0;
   padding-top: 5px;
-}
-.panel{
-  outline: 1px solid gold;
 }
 .date{
   width: 15px;
@@ -47,6 +43,7 @@ p{
 }
 .title{
   font-size: 1.3em;
+  padding-top: 20px;
 }
 .flex{
   display: flex;
@@ -57,7 +54,7 @@ p{
 }
 #relat{
   position: relative;
-  left: 424px;
+  left: 416px;
 }
 .new{
   display: flex;
@@ -66,4 +63,7 @@ p{
 }
 .phone{
   width: 22px;
+}
+#physician{
+  height: 15px;
 }
